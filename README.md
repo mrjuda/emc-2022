@@ -12,7 +12,7 @@
 - Live version: [mrjuda.github.io/jt-m1-capstone](https://mrjuda.github.io/jt-m1-capstone)
 
 - Mobile version:
-> [![Preview](https://giphy.com/gifs/not-yet-no-YQAuKJ7wf68qBHPw6Y)](https://giphy.com/gifs/not-yet-no-YQAuKJ7wf68qBHPw6Y)
+> [![Preview](https://giphy.com/gifs/not-yet-no-YQAuKJ7wf68qBHPw6Y)](https://gfycat.com/absoluteraggedcopperbutterfly)
 - Desktop version:
 > [![Preview](https://giphy.com/gifs/not-yet-no-YQAuKJ7wf68qBHPw6Y)](https://giphy.com/gifs/not-yet-no-YQAuKJ7wf68qBHPw6Y)
 
