@@ -12,9 +12,9 @@
 - Live version: [mrjuda.github.io/jt-m1-capstone](https://mrjuda.github.io/jt-m1-capstone)
 
 - Mobile version:
-> [![Preview](https://giphy.com/gifs/not-yet-no-YQAuKJ7wf68qBHPw6Y)](https://gfycat.com/absoluteraggedcopperbutterfly)
+> [![Preview](https://media3.giphy.com/media/YQAuKJ7wf68qBHPw6Y/giphy.gif)](https://media3.giphy.com/media/YQAuKJ7wf68qBHPw6Y/giphy.gif)
 - Desktop version:
-> [![Preview](https://giphy.com/gifs/not-yet-no-YQAuKJ7wf68qBHPw6Y)](https://giphy.com/gifs/not-yet-no-YQAuKJ7wf68qBHPw6Y)
+> [![Preview](https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-mobile.mp4)](https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-mobile.mp4)
 
 ## Authors
 **Judá F Teixeira**
