@@ -18,19 +18,19 @@
 
 ## Authors
 **Judá F Teixeira**
-- GitHub: [@mrjuda](https://github.com/mrjuda)
-- LinkedIn: [@judateixeira](https://www.linkedin.com/in/judateixeira)
+- GitHub: [@mrjuda](https://github.com/mrjuda "Judá Teixeira's GitHub profile")
+- LinkedIn: [@judateixeira](https://www.linkedin.com/in/judateixeira "Judá Teixeira's Linkedin profile")
 
 **Cindy Shin (Original author)**
-- Bèhance: [@adagio07](https://www.behance.net/adagio07 "")
+- Bèhance: [@adagio07](https://www.behance.net/adagio07 "Cindy Shin's Bèhance's profile")
 - LinkedIn: [@adagio07](https://www.linkedin.com/in/adagio07 "Kiju Shin's LinkedIn profile")
 - Dribbble: [@adagio07](https://dribbble.com/adagio07/collections "Cindy Shin' Dribble profile")
 
 ## Contributing
 **Emily Robertson**
-- GitHub: [@emyrue](https://github.com/emyrue "Emily Robertson's GitHub")
-- Twitter: [@EmyRueRobertson](https://twitter.com/EmyrueRobertson "Emily Robertson's Twitter")
-- LinkedIn: [@emily-robertson-70a2bb22a](https://www.linkedin.com/in/emily-robertson-70a2bb22a/ "Emily Robertson's LinkedIn")
+- GitHub: [@emyrue](https://github.com/emyrue "Emily Robertson's GitHub profile")
+- Twitter: [@EmyRueRobertson](https://twitter.com/EmyrueRobertson "Emily Robertson's Twitter profile")
+- LinkedIn: [@emily-robertson-70a2bb22a](https://www.linkedin.com/in/emily-robertson-70a2bb22a/ "Emily Robertson's LinkedIn profile")
 
 ## 📝License
 This project is [MIT](https://github.com/mrjuda/jt-m1-capstone/blob/main/LICENSE) licensed.
