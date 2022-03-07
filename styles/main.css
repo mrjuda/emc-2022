@@ -1,13 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@font-face {
+  font-family: 'cocogoose';
+  src: url(fonts/cocogoose/);
+}
 
 * {
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+ul,
+li {
+  text-decoration: none;
+
 }
 
 h1,
 h2 {
   color: rgb(196, 72, 0);
+  font-family: 'cocogoose', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
   font-size: 40px;
   line-height: 48px;
 }
