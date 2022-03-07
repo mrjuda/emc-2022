@@ -14,7 +14,7 @@
 - Mobile version:
 > [![Preview](https://media3.giphy.com/media/YQAuKJ7wf68qBHPw6Y/giphy.gif)](https://media3.giphy.com/media/YQAuKJ7wf68qBHPw6Y/giphy.gif)
 - Desktop version:
-> [![Preview](https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-mobile.mp4)](https://thumbs.gfycat.com/AbsoluteRaggedCopperbutterfly-mobile.mp4)
+> [![Preview](https://media3.giphy.com/media/jpEWlxtIDmpsobtxcE/giphy.gif)](https://media3.giphy.com/media/jpEWlxtIDmpsobtxcE/giphy.gif)
 
 ## Authors
 **Judá F Teixeira**
