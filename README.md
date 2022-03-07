@@ -21,11 +21,16 @@
 - GitHub: [@mrjuda](https://github.com/mrjuda)
 - LinkedIn: [@judateixeira](https://www.linkedin.com/in/judateixeira)
 
+**Cindy Shin (Original author)**
+- Bèhance: [@adagio07](https://www.behance.net/adagio07 "")
+- LinkedIn: [@adagio07](https://www.linkedin.com/in/adagio07 "Kiju Shin's LinkedIn profile")
+- Dribbble: [@adagio07](https://dribbble.com/adagio07/collections "Cindy Shin' Dribble profile")
+
 ## Contributing
 **Emily Robertson**
 - GitHub: [@emyrue](https://github.com/emyrue "Emily Robertson's GitHub")
 - Twitter: [@EmyRueRobertson](https://twitter.com/EmyrueRobertson "Emily Robertson's Twitter")
-- LinkedIn: [Emily Robertson](https://www.linkedin.com/in/emily-robertson-70a2bb22a/ "Emily Robertson's LinkedIn")
+- LinkedIn: [@emily-robertson-70a2bb22a](https://www.linkedin.com/in/emily-robertson-70a2bb22a/ "Emily Robertson's LinkedIn")
 
 ## 📝License
 This project is [MIT](https://github.com/mrjuda/jt-m1-capstone/blob/main/LICENSE) licensed.
