@@ -11,11 +11,14 @@
 </head>
 <body>
   <div class="grid-container">
-    <header>
+    <header>  <!-- START OF HEADER -->
       <!-- Mobile Menu -->
       <nav class="menu-mobile-container">
-        <a class="menu-x" href="#">X</a>
-        <ul class="menu-mobile-list">
+        <a href="#">
+          <img class="menu-hamb" id="menu-hamb" src="icons/menu.png" alt="Menu" />
+        </a>
+        <a class="menu-x hide" id="menu-x" href="#">X</a>
+        <ul class="menu-mobile-list hide">
           <li class="home-btn"><a href="#">Home</a></li>
           <li class="about-btn"><a href="#About">About</a></li>
         </ul>
@@ -27,12 +30,130 @@
         
       </div>
       <!-- Desktop Menu -->
+      <div class="menu-desktop">
+        <!-- <span> </span> -->
+        <ul class="menu-desktop-item hide">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+        </ul>
+      </div>
+    </header>  <!-- END OF HEADER -->
 
-    </header>
-    <h1>Jud&aacute; Teixeira's Capstone One</h1>
-    <h3>Hi there</h3>
-  </div>
+    <section class="home" id="Home">  <!-- START OF HOME -->
+      <div class="home-heading">
+        <span>
+          "Hello! Sharing world"
+        </span>
+        <h1>
+          CREATIVE COMMONS GLOBAL SUMMIT 2022
+        </h1>
+        <p>
+          A joyful celebration believing in the value 
+          of openess and sharing, creating a positive 
+          change with people from over 80 countries 
+          is taking place in October, in Korea.
+        </p>
+        <div class="event-details">
+          <h2>
+            2015.10.15(THU) ~ 16(FRI)
+          </h2>
+          <p class="event-location">
+            @ National Museum of Korea, 
+            Art Center Nabi and more
+          </p>
+        </div>
+        
+      </div>
+    </section> <!-- END OF HOME -->
+
+    <section class="main"> <!-- START OF MAIN -->
+      <div class="main-header">
+        <h3>Main Program</h3>
+        <div class="dash">  </div>
+      </div>
+      <ul class="workshops">
+        <li class="workshops-items">
+          <img src="icons/event1.png" alt="Workshop icon"/>
+          <h4>Event one1</h4>
+          <p>
+            Is simply dummy text of the printing 
+            and typesetting industry. Lorem Ipsum 
+            has been the industry's standard dummy 
+            text ever since the 1500s
+          </p>
+        </li>
+        <li class="workshops-items">
+          <img src="icons/event2.png" alt="Workshop icon"/>
+          <h4>Event two2</h4>
+          <p>
+            Is simply dummy text of the printing 
+            and typesetting industry. Lorem Ipsum 
+            has been the industry's standard dummy 
+            text ever since the 1500s
+          </p>
+        </li>
+        <li class="workshops-items">
+          <img src="icons/event3.png" alt="Workshop icon"/>
+          <h4>Event three3</h4>
+          <p>
+            Is simply dummy text of the printing 
+            and typesetting industry. Lorem Ipsum 
+            has been the industry's standard dummy 
+            text ever since the 1500s
+          </p>
+        </li>
+        <li class="workshops-items">
+          <img src="icons/event4.png" alt="Workshop icon"/>
+          <h4>Event four4</h4>
+          <p>
+            Is simply dummy text of the printing 
+            and typesetting industry. Lorem Ipsum 
+            has been the industry's standard dummy 
+            text ever since the 1500s
+          </p>
+        </li>
+        <li class="workshops-items">
+          <img src="icons/event5.png" alt="Workshop icon"/>
+          <h4>Event five5</h4>
+          <p>
+            Is simply dummy text of the printing 
+            and typesetting industry. Lorem Ipsum 
+            has been the industry's standard dummy 
+            text ever since the 1500s
+          </p>
+        </li>
+      </ul>
+      <button class="join">
+        Join CC Global Summit 2015
+      </button>
+
+    </section> <!-- END OF MAIN -->
+
+    <section class="about" id="About">  <!-- START OF ABOUT -->
+      <span>
+        "Hello! Sharing world"
+      </span>
+      <h2>
+        CREATIVE COMMONS GLOBAL SUMMIT 2022
+      </h2>
+      <p>
+        The global Summit brings together the community 
+        of experts, academics, and activists who comprise 
+        the Creative Commons affiliate network in a 
+        different country every two. This Year, we hope 
+        to expand our invitation list including 
+        organizations and individuals.
+      </p>
+    </section> <!-- END OF ABOUT -->
+
+    <section class="speakers"> <!-- START OF SPEAKERS -->
+      <div class="speakers-heading">
+        <h3>Featured Speakers</h3>
+        <div class="dash">  </div>
+      </div>
+    </section> <!-- END OF SPEAKERS -->
   
+  </div>  <!-- END OF PARENT GRID-CONTAINER -->
   
   <script src="scripts/main.js"></script>
 </body>
