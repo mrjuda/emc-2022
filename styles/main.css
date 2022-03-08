@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
 @font-face {
   font-family: 'cocogoose';
   src: url(fonts/cocogoose);
@@ -9,11 +10,11 @@
   --color-0: #000;
   --color-1: #344b57;
   --color-1b: #212c33;
-  --color-2: #ff4400;
+  --color-2: #f40;
   --color-3: #df4b1ee5;
   --color-4: #d62828;
   --color-5: #fcbf49;
-  --color-6: #cccccc;
+  --color-6: #ccc;
   --color-7: #f3f3f3;
 }
 
@@ -260,7 +261,6 @@ header {
   border-radius: 3px;
   margin-left: 0;
   width: 2rem;
-  text-align: left
 }
 
 .speakers-pic img {
@@ -284,12 +284,6 @@ header {
   font-size: 1rem;
 }
 
-.speakers-dash {
-  justify-content: flex-start;
-  align-items: flex-start;
-  text-align: left;
-}
-
 .speakers-info p {
   font-size: 0.8rem;
   line-height: 1rem;
@@ -306,7 +300,7 @@ header {
 }
 
 .about-heading {
-  background:rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .about h2 {
@@ -366,5 +360,7 @@ header {
 /* ##### DESKTOP DESIGN ##### */
 
 @media screen and (min-width: 768px) {
-
+  h1 {
+    color: var(--color-0);
+  }
 }
