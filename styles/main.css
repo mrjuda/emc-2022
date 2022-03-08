@@ -155,7 +155,6 @@ header {
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--color-1c);
-  /* background: rgba(255, 255, 255, 0.1); */
 }
 
 .main,
@@ -308,7 +307,6 @@ header {
   color: var(--color-3);
   background-color: var(--color-f);
   border: solid 0.1rem var(--color-3);
-  cursor: pointer;
 }
 
 .more-speakers span {
@@ -334,7 +332,6 @@ header {
   font-size: 2.4rem;
   font-weight: 900;
   padding-bottom: 2rem;
-  /* margin-bottom: 2rem; */
 }
 
 .about p {
@@ -382,9 +379,6 @@ header {
   margin-top: 0.4rem;
 }
 
-.about p {
-  padding: 0 0;
-}
 .about-banner {
   width: 95%;
   align-self: center;
