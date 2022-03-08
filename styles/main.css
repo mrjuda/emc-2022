@@ -32,7 +32,7 @@ body {
 
 h1 {
   color: var(--color-2);
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   font-weight: 900;
   line-height: 2.6rem;
   margin: 0.3rem 0;
@@ -78,7 +78,8 @@ p {
 .home,
 .main,
 .talks,
-.about {
+.about,
+footer {
   padding: 1rem 1.3rem;
 }
 
@@ -109,6 +110,7 @@ header {
 }
 
 .logo img {
+  display: none;
   height: 2.4rem;
   font-size: 2rem;
   justify-content: center;
@@ -117,8 +119,11 @@ header {
 }
 
 .home {
+  font-family: 'COCOGOOSE';
   background: rgba(0, 0, 0, 0.9) url("../images/bg-home-mobile.png") no-repeat;
   background-size: cover;
+  background-clip: text;
+  -moz-background-clip: text;
 }
 
 .home-heading {
@@ -384,6 +389,25 @@ header {
   align-self: center;
   padding: 2rem 3.5rem;
   border: solid var(--color-6);
+}
+
+
+/* ##### TABLET DESIGN ##### */
+
+@media screen and (min-width: 600px) {
+
+  .logo img {
+    display: block;
+  }
+
+  .home,
+  header,
+  .main,
+  .talks,
+  .about,
+  footer {
+    padding: 1rem 17%;
+  }
 }
 
 /* ##### DESKTOP DESIGN ##### */
