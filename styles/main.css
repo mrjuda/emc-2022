@@ -1,28 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
-
-@font-face {
-  font-family: 'cocogoose';
-  src: url(fonts/cocogoose);
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500;700&display=swap');
 
 :root {
   --color-f: #fff;
   --color-0: #000;
-  --color-1: #344b57;
+  --color-1: #272a31;
   --color-1b: #212c33;
-  --color-2: #f40;
-  --color-3: #df4b1ee5;
-  --color-4: #d62828;
+  --color-1c: #535353;
+  --color-2: #ec5242;
+  --color-2b: #ffbfb8;
+  --color-3: #d3d3d3;
+  --color-3b: #f3f3f3;
   --color-5: #fcbf49;
   --color-6: #ccc;
-  --color-7: #f3f3f3;
 }
 
 * {
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: 'cocogoose', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'lato', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
@@ -36,7 +32,8 @@ body {
 
 h1 {
   color: var(--color-2);
-  font-size: 32px;
+  font-size: 2.4rem;
+  font-weight: bolder;
   line-height: 34px;
   margin: 0.3rem 0;
 }
@@ -50,29 +47,27 @@ h2 {
 }
 
 h3 {
-  color: var(--color-6);
-  font-size: 22px;
-  font-weight: 300;
+  color: var(--color-3);
+  font-size: 1.2rem;
+  font-weight: 700;
   line-height: 34px;
   margin: 0.6rem 0;
 }
 
 h4 {
-  color: var(--color-3);
+  color: var(--color-2);
   margin: 0 0;
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: 700;
 }
 
 span {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 1.4rem;
-  color: var(--color-3);
+  color: var(--color-2);
   font-weight: 500;
 }
 
 p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: var(--color-1);
 }
 
@@ -84,7 +79,7 @@ p {
 .main,
 .talks,
 .about {
-  padding: 2rem 1.3rem;
+  padding: 1rem 1.3rem;
 }
 
 header {
@@ -131,7 +126,7 @@ header {
 }
 
 .home p {
-  background-color: var(--color-7);
+  background-color: var(--color-3b);
   border: solid var(--color-f) 0.2rem;
   padding: 1rem 0.8rem;
   margin: 1rem -0.4rem;
@@ -146,9 +141,9 @@ header {
 }
 
 .event-details h2 {
-  color: var(--color-1);
-  font-size: 24px;
-  font-weight: 300;
+  color: var(--color-1c);
+  font-size: 28px;
+  font-weight: 1000;
   line-height: 30px;
   margin: 0.4rem 0;
 }
@@ -159,7 +154,8 @@ header {
   padding: 0 0;
   font-size: 0.9rem;
   font-weight: 500;
-  background: rgba(255, 255, 255, 0.1);
+  color: var(--color-1c);
+  /* background: rgba(255, 255, 255, 0.1); */
 }
 
 .main,
@@ -170,7 +166,7 @@ header {
 }
 
 .main {
-  background: var(--color-1b) url("../images/bg-pattern.png") repeat;
+  background: var(--color-1) url("../images/bg-pattern.png") repeat;
 }
 
 .main-header,
@@ -185,11 +181,11 @@ header {
 
 .main .dash,
 .talks .talks-header .dash {
-  border: solid var(--color-3);
+  border: solid var(--color-2b);
   font-size: 1rem;
   border-width: 0.3px;
   border-radius: 3px;
-  width: 4rem;
+  width: 3rem;
   justify-self: center;
 }
 
@@ -210,12 +206,12 @@ header {
   flex-direction: row;
   align-items: center;
   padding: 0.1rem 1.4rem;
-  background: rgba(100, 100, 105, 0.3);
+  background: rgba(100, 100, 110, 0.3);
   gap: 1.5rem;
 }
 
 .workshops p {
-  color: var(--color-6);
+  color: var(--color-3);
   font-size: 0.8rem;
 }
 
@@ -223,11 +219,12 @@ header {
   width: 80%;
   margin: 2rem 3rem;
   cursor: pointer;
-  color: var(--color-7);
-  font-weight: 100;
+  color: var(--color-3b);
+  font-size: medium;
+  font-weight: 900;
   border-style: none;
-  background-color: var(--color-3);
-  padding: 1.5rem 2rem;
+  background-color: var(--color-2);
+  padding: 2rem 2rem;
   align-self: center;
 }
 
@@ -254,17 +251,8 @@ header {
   padding: 1.3rem 0;
 }
 
-.speakers-dash {
-  border: solid var(--color-6);
-  font-size: 1rem;
-  border-width: 0.3px;
-  border-radius: 3px;
-  margin-left: 0;
-  width: 2rem;
-}
-
 .speakers-pic img {
-  height: 9rem;
+  height: 7rem;
   justify-items: center;
   align-items: center;
 }
@@ -277,17 +265,56 @@ header {
 
 .speakers-info h4 {
   color: var(--color-1b);
+  font-weight: 900;
 }
 
 .speakers-info span {
   font-style: italic;
+  font-size: 0.8rem;
+}
+
+.speakers-dash {
+  border: solid var(--color-3);
   font-size: 1rem;
+  border-width: 0.3px;
+  border-radius: 3px;
+  margin-left: 0;
+  width: 1.2rem;
 }
 
 .speakers-info p {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   line-height: 1rem;
   margin: 0 0;
+}
+
+.more {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.more-speakers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  width: 90%;
+  margin-top: 2.5rem;
+  padding: 0.8rem 7rem;
+  cursor: pointer;
+  color: var(--color-3);
+  background-color: var(--color-f);
+  border: solid 0.1rem var(--color-3);
+  cursor: pointer;
+}
+
+.more-speakers span {
+  font-size: 1rem;
+  font-weight: 500;
+  align-self: flex-start;
 }
 
 .about {
@@ -299,17 +326,20 @@ header {
   text-align: center;
 }
 
-.about-heading {
-  background: rgba(255, 255, 255, 0.9);
+.about span {
+  padding-top: 2rem;
 }
 
 .about h2 {
-  opacity: 1;
+  font-size: 2.4rem;
+  font-weight: 900;
+  padding-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .about p {
   background-color: var(--color-f);
-  border: solid var(--color-6) 0.2rem;
+  border: solid var(--color-3b) 0.2rem;
   padding: 1.5rem 1.5rem;
   color: var(--color-1);
   font-size: 0.9rem;
@@ -336,16 +366,25 @@ header {
   justify-content: center;
 }
 
+.about-logo h3 {
+  font-size: 1.6rem;
+  color: var(--color-1c);
+}
+
 .about .about-logo .about-dash {
   display: flex;
   flex-direction: row;
   align-self: center;
-  border: solid var(--color-3);
+  border: solid var(--color-2b);
   border-width: 0.3px;
   border-radius: 3px;
   width: 2rem;
+  margin-top: 0.4rem;
 }
 
+.about p {
+  padding: 0 0;
+}
 .about-banner {
   width: 95%;
   align-self: center;
