@@ -58,6 +58,7 @@ h3 {
 
 h4 {
   color: var(--color-3);
+  margin: 0 0;
   font-size: 1rem;
   font-weight: 100;
 }
@@ -80,6 +81,7 @@ p {
 
 .home,
 .main,
+.talks,
 .about {
   padding: 2rem 1.3rem;
 }
@@ -102,9 +104,16 @@ header {
 }
 
 .menu-x,
-.menu-hamb,
+.menu-hamb {
+  height: 1.6rem;
+  font-size: 2rem;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+
 .logo img {
-  height: 2rem;
+  height: 2.4rem;
   font-size: 2rem;
   justify-content: center;
   align-self: center;
@@ -153,7 +162,7 @@ header {
 }
 
 .main,
-.speakers {
+.talks {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -164,7 +173,7 @@ header {
 }
 
 .main-header,
-.speakers h3 {
+.talks-header {
   display: grid;
   flex-direction: column;
   align-items: center;
@@ -174,14 +183,13 @@ header {
 }
 
 .main .dash,
-.speakers .dash {
+.talks .talks-header .dash {
   border: solid var(--color-3);
   font-size: 1rem;
   border-width: 0.3px;
   border-radius: 3px;
-  margin: 0 4rem;
-  /* margin-bottom: 0; */
-  /* text-align: center; */
+  width: 4rem;
+  justify-self: center;
 }
 
 .workshops {
@@ -222,15 +230,77 @@ header {
   align-self: center;
 }
 
-.speakers h3 {
+.talks {
+  display: flex;
+  flex-direction: column;
+}
+
+.talks h3,
+.about-logo h3 {
+  color: var(--color-1);
+}
+
+.speakers {
+  padding: 0 0;
+}
+
+.speakers-items {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  padding: 1.3rem 0;
+}
+
+.speakers-dash {
+  border: solid var(--color-6);
+  font-size: 1rem;
+  border-width: 0.3px;
+  border-radius: 3px;
+  margin-left: 0;
+  width: 2rem;
+  text-align: left
+}
+
+.speakers-pic img {
+  height: 9rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.speakers-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.speakers-info h4 {
   color: var(--color-1b);
+}
+
+.speakers-info span {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.speakers-dash {
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.speakers-info p {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin: 0 0;
 }
 
 .about {
   display: flex;
   flex-direction: column;
   background: rgba(255, 255, 255, 0.9) url("../images/bg-about-mobile.png") no-repeat;
-  background-size: cover;
+  background-size: 100%;
   margin: 0 0;
   text-align: center;
 }
@@ -251,4 +321,50 @@ header {
   font-size: 0.9rem;
   line-height: 1.4rem;
   text-align: center;
+}
+
+.about .contact-us {
+  border-style: none;
+  background: rgba(255, 255, 255, 0);
+}
+
+.about .contact-us span {
+  color: var(--color-1b);
+  font-size: 0.9rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: underline #222;
+}
+
+.about-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about .about-logo .about-dash {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  border: solid var(--color-3);
+  border-width: 0.3px;
+  border-radius: 3px;
+  width: 2rem;
+}
+
+.about-banner {
+  width: 95%;
+  align-self: center;
+  padding: 2rem 3.5rem;
+  border: solid var(--color-6);
+}
+
+/* ##### DESKTOP DESIGN ##### */
+
+/* ##### DESKTOP DESIGN ##### */
+
+/* ##### DESKTOP DESIGN ##### */
+
+@media screen and (min-width: 768px) {
+
 }
