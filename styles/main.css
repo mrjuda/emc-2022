@@ -204,6 +204,16 @@ header {
   justify-self: center;
 }
 
+.talks h3,
+.event-logo h3 {
+  color: var(--color-1);
+}
+
+.event-logo h3 {
+  font-size: 1.6rem;
+  color: var(--color-1c);
+}
+
 .about .h3-header h3,
 .archive .h3-header h3,
 footer .h3-header h3 {
@@ -252,11 +262,6 @@ footer .h3-header h3 {
 .talks {
   display: flex;
   flex-direction: column;
-}
-
-.talks h3,
-.event-logo h3 {
-  color: var(--color-1);
 }
 
 .speakers {
@@ -384,11 +389,6 @@ footer .h3-header h3 {
   justify-content: center;
 }
 
-.event-logo h3 {
-  font-size: 1.6rem;
-  color: var(--color-1c);
-}
-
 .about .event-logo .about-dash {
   display: flex;
   flex-direction: row;
@@ -434,7 +434,6 @@ footer .h3-header h3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* gap: 1rem 1.5rem; */
 }
 
 .logo-carousel img {
@@ -446,7 +445,6 @@ footer .h3-header h3 {
 /* ##### TABLET DESIGN ##### */
 
 @media screen and (min-width: 600px) {
-
   .logo img {
     display: block;
   }
