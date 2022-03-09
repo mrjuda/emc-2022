@@ -435,7 +435,9 @@ footer .h3-header h3 {
   /* gap: 1rem 1.5rem; */
 }
 
-.logo-item {
+.logo-carousel img {
+  height: 7rem;
+  width: auto;
   padding: 1rem 0.4rem;
 }
 
