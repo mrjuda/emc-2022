@@ -107,8 +107,6 @@ header {
   position: fixed;
   display: none;
   flex-direction: column;
-  /* align-items: center;
-  align-self: center; */
   padding-right: 1rem;
   width: 100%;
   height: 100%;
@@ -118,7 +116,6 @@ header {
 .menu-x,
 .menu-hamb {
   display: flex;
-  flex-direction: row;
   justify-content: end;
   width: 2rem;
   height: auto;
@@ -239,6 +236,19 @@ header {
   margin: 1rem 1rem;
 }
 
+.splitter {
+  border: solid var(--color-3b);
+  margin: 0 0;
+  padding: 0 0;
+  font-size: 1rem;
+  line-height: 0.4rem;
+  border-width: 0.3px;
+  border-radius: 3px;
+  /* width: 130%; */
+  align-self: center;
+  text-align: center;
+}
+
 .h3-header .dash {
   border: solid var(--color-2b);
   font-size: 1rem;
@@ -314,6 +324,7 @@ footer .h3-header h3,
 }
 
 .speakers {
+  display: grid;
   padding: 0 0;
 }
 
@@ -394,7 +405,7 @@ footer .h3-header h3,
 }
 
 .about {
-  background: rgba(255, 255, 255, 0.9) url("../images/bg-about-mobile.png") no-repeat;
+  background: rgba(255, 255, 255, 0.9) url("../images/bg-about-mobile.png") repeat-y;
   background-size: 100%;
   background-position: top;
 }
@@ -454,6 +465,7 @@ footer .h3-header h3,
   align-self: center;
   padding: 2rem 3.5rem;
   border: solid var(--color-6);
+  background-color: var(--color-f);
 }
 
 .pic-set {
@@ -544,6 +556,10 @@ footer .h3-header h3,
     display: none;
   }
 
+  .name-logo {
+    align-self: center;
+  }
+
   .menu-desktop-item {
     display: flex;
     flex-direction: row;
@@ -557,13 +573,39 @@ footer .h3-header h3,
     color: var(--color-1);
   }
 
+  .menu-desktop-item li {
+    padding: 0.4rem 0.4rem;
+    border: solid transparent;
+  }
+
+  /* .menu-desktop-item li:hover {
+    color: var(--color-f);
+    background-color: var(--color-2);
+  } */
+
+  .cc-button {
+    border: solid var(--color-2) !important;
+  }
+
+  .cc-button a {
+    color: var(--color-2);
+  }
+  
+
   h1 {
     font-size: 3rem;
     line-height: 3rem;
   }
 
-  .home p {
+  .home p,
+  .about p,
+  .center-p {
     width: 65%;
+  }
+
+  .about p,
+  .center-p {
+    align-self: center;
   }
 
   .workshops {
@@ -585,16 +627,35 @@ footer .h3-header h3,
   .see-program {
     display: flex;
     justify-content: center;
-    /* text-decoration: underline; */
     margin-top: 2rem;
     margin-bottom: 3rem;
   }
 
   .see-program h4{
     color: var(--color-3);
+    cursor: pointer;
   }
 
   .join {
     display: none;
+  }
+
+  .speakers {
+    grid-template-columns: 47% 47%;
+    column-gap: 6%;
+  }
+
+  .more {
+    display: none;
+  }
+
+  .about-banner {
+    width: 50%;
+    margin-bottom: 3rem;
+  }
+
+  .pic-set {
+    margin-top: 2rem;
+    flex-direction: row;
   }
 }

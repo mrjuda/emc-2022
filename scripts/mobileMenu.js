@@ -6,6 +6,7 @@ const menuMobileBg = document.querySelector('.menu-mobile-bg');
 const portfolioBtn = document.querySelector('.main-btn');
 const aboutBtn = document.querySelector('.about-btn');
 const archiveBtn = document.querySelector('.archive-btn');
+const footerBtn = document.querySelector('.footer-btn');
 const main = document.querySelectorAll('.main');
 
 menuHamb.addEventListener('click', () => {
@@ -46,6 +47,15 @@ aboutBtn.addEventListener('click', () => {
 });
 
 archiveBtn.addEventListener('click', () => {
+  body.style.height = 'auto';
+  body.style.overflow = 'visible';
+  menuMobileContainer.style.display = 'none';
+  menuHamb.style.display = 'flex';
+  menuX.style.display = 'none';
+  menuMobileBg.style.display = 'none';
+});
+
+footerBtn.addEventListener('click', () => {
   body.style.height = 'auto';
   body.style.overflow = 'visible';
   menuMobileContainer.style.display = 'none';
