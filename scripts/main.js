@@ -1,3 +1,5 @@
+// main.js
+
 function loadJS(url) {
   const script = document.createElement('script');
   script.src = url;
@@ -7,4 +9,3 @@ function loadJS(url) {
 
 loadJS('scripts/mobileMenu.js');
 loadJS('scripts/dynamicCards.js');
-loadJS('scripts/popup.js');

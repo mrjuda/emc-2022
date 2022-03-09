@@ -1,3 +1,5 @@
+// mobileMenu.js
+
 const body = document.querySelector('body');
 const menuHamb = document.querySelector('.menu-hamb');
 const menuX = document.querySelector('.menu-x');
