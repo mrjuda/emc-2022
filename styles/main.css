@@ -84,8 +84,13 @@ p {
 .talks,
 .about,
 .archive,
+.partners,
 footer {
   padding: 1rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0;
+  text-align: center;
 }
 
 header {
@@ -166,6 +171,7 @@ header {
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--color-1c);
+  text-align: center;
 }
 
 .main,
@@ -332,15 +338,6 @@ footer .h3-header h3 {
   align-self: flex-start;
 }
 
-.about,
-.archive,
-footer {
-  display: flex;
-  flex-direction: column;
-  margin: 0 0;
-  text-align: center;
-}
-
 .about {
   background: rgba(255, 255, 255, 0.9) url("../images/bg-about-mobile.png") no-repeat;
   background-size: 100%;
@@ -426,6 +423,22 @@ footer {
   border-color: var(--color-2);
 }
 
+.partners .center-p {
+  color: var(--color-3b);
+}
+
+.logo-carousel {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* gap: 1rem 1.5rem; */
+}
+
+.logo-item {
+  padding: 1rem 0.4rem;
+}
+
 /* ##### TABLET DESIGN ##### */
 
 @media screen and (min-width: 600px) {
@@ -439,6 +452,8 @@ footer {
   .main,
   .talks,
   .about,
+  .archive,
+  .partners,
   footer {
     padding: 1rem 17%;
   }
