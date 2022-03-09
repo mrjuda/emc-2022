@@ -130,7 +130,7 @@ header {
 }
 
 .home {
-  font-family: 'COCOGOOSE';
+  text-align: left;
   background: rgba(0, 0, 0, 0.9) url("../images/bg-home-mobile.png") no-repeat;
   background-size: cover;
   background-clip: text;
@@ -283,6 +283,7 @@ footer .h3-header h3 {
   display: flex;
   flex-direction: column;
   gap: 0.4rem;
+  text-align: left;
 }
 
 .speakers-info h4 {
@@ -341,6 +342,7 @@ footer .h3-header h3 {
 .about {
   background: rgba(255, 255, 255, 0.9) url("../images/bg-about-mobile.png") no-repeat;
   background-size: 100%;
+  background-position: center;
 }
 
 .about span {
@@ -348,7 +350,7 @@ footer .h3-header h3 {
 }
 
 .about h2 {
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 900;
   padding-bottom: 2rem;
 }
