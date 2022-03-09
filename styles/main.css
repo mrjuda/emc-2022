@@ -133,8 +133,6 @@ header {
   text-align: left;
   background: rgba(0, 0, 0, 0.9) url("../images/bg-home-mobile.png") no-repeat;
   background-size: cover;
-  background-clip: text;
-  -moz-background-clip: text;
 }
 
 .home-heading {
@@ -214,9 +212,9 @@ header {
   color: var(--color-1c);
 }
 
+footer .h3-header h3,
 .about .h3-header h3,
-.archive .h3-header h3,
-footer .h3-header h3 {
+.archive .h3-header h3 {
   color: var(--color-1);
 }
 
