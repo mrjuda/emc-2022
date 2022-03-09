@@ -157,6 +157,24 @@ header {
   z-index: 1;
 }
 
+.logo-carousel img {
+  height: 7rem;
+  width: auto;
+  padding: 1rem 0.4rem;
+}
+
+.speakers-pic img {
+  height: 7rem;
+  width: auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.workshops img {
+  width: auto;
+  height: 3rem;
+}
+
 .name-logo a img {
   display: none;
   height: 2.4rem;
@@ -278,11 +296,6 @@ footer .h3-header h3,
   padding: 0 0;
 }
 
-.workshops img {
-  width: auto;
-  height: 3rem;
-}
-
 .workshops-items {
   display: flex;
   flex-direction: row;
@@ -331,13 +344,6 @@ footer .h3-header h3,
   justify-items: center;
   align-items: center;
   padding: 1.3rem 0;
-}
-
-.speakers-pic img {
-  height: 7rem;
-  width: auto;
-  justify-items: center;
-  align-items: center;
 }
 
 .speakers-info {
@@ -491,12 +497,6 @@ footer .h3-header h3,
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
-
-.logo-carousel img {
-  height: 7rem;
-  width: auto;
-  padding: 1rem 0.4rem;
 }
 
 /* ##### TABLET DESIGN ##### */
