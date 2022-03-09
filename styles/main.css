@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500;700&display=swap');
 
+.hide {
+  display: none;
+}
+
 :root {
   --color-f: #fff;
   --color-0: #000;
@@ -75,10 +79,6 @@ p {
   color: var(--color-1);
 }
 
-.hide {
-  display: none;
-}
-
 .home,
 .main,
 .talks,
@@ -104,22 +104,65 @@ header {
 }
 
 .menu-mobile-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-self: center;
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  /* align-items: center;
+  align-self: center; */
+  padding-right: 1rem;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
 }
 
 .menu-x,
 .menu-hamb {
-  height: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 2rem;
+  height: auto;
   font-size: 2rem;
-  justify-content: center;
-  align-self: center;
-  align-items: center;
+  /* align-self: center;
+  align-items: center; */
 }
 
-.logo img {
+.menu-x,
+.menu-hamb,
+.menu-mobile-list li a {
+  color: #fff;
+  font-size: 2rem;
+  z-index: 5;
+}
+
+.menu-hamb,
+.menu-mobile-list li a {
+  color: #fff;
+  font-weight: 700;
+}
+
+.menu-x {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  margin: 0.4rem 2rem;
+}
+
+.menu-mobile-list li {
+  padding: 2rem 2rem;
+}
+
+.menu-mobile-bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 1;
+}
+
+.name-logo a img {
   display: none;
   height: 2.4rem;
   width: auto;
@@ -127,6 +170,10 @@ header {
   justify-content: center;
   align-self: center;
   align-items: center;
+}
+
+.menu-desktop-item {
+  display: none;
 }
 
 .home {
@@ -169,7 +216,7 @@ header {
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--color-1c);
-  text-align: center;
+  /* text-align: center; */
 }
 
 .main,
@@ -242,6 +289,10 @@ footer .h3-header h3,
 .workshops p {
   color: var(--color-3);
   font-size: 0.8rem;
+}
+
+.see-program {
+  display: none;
 }
 
 .join {
@@ -345,7 +396,7 @@ footer .h3-header h3,
 .about {
   background: rgba(255, 255, 255, 0.9) url("../images/bg-about-mobile.png") no-repeat;
   background-size: 100%;
-  background-position: center;
+  background-position: top;
 }
 
 .about span {
@@ -443,8 +494,8 @@ footer .h3-header h3,
 /* ##### TABLET DESIGN ##### */
 
 @media screen and (min-width: 600px) {
-  .logo img {
-    display: block;
+  .name-logo a img {
+    display: flex;
   }
 
   .home,
@@ -466,7 +517,84 @@ footer .h3-header h3,
 /* ##### DESKTOP DESIGN ##### */
 
 @media screen and (min-width: 768px) {
+  .home,
+  header,
+  .main,
+  .talks,
+  .about,
+  .archive,
+  .partners,
+  footer {
+    padding: 1rem 5rem;
+  }
+
+  header {
+    background: var(--color-f);
+  }
+
+  .name-logo a img {
+    display: flex;
+  }
+
+  .menu-hamb {
+    display: none;
+  }
+
+  #menu-hamb {
+    display: none;
+  }
+
+  .menu-desktop-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0;
+    gap: 2rem;
+    text-decoration: none;
+  }
+
+  .menu-desktop-item a {
+    color: var(--color-1);
+  }
+
   h1 {
-    color: var(--color-0);
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .home p {
+    width: 65%;
+  }
+
+  .workshops {
+    flex-direction: row;
+    gap: 0.4rem;
+  }
+
+  .workshops-items {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.5rem;
+    padding: 1rem 1rem;
+  }
+
+  .workshops .workshops-items p {
+    margin: 0 0;
+  }
+
+  .see-program {
+    display: flex;
+    justify-content: center;
+    /* text-decoration: underline; */
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .see-program h4{
+    color: var(--color-3);
+  }
+
+  .join {
+    display: none;
   }
 }

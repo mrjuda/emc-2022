@@ -12,35 +12,39 @@
 <body>
   <div class="grid-container">
     <header>  <!-- START OF HEADER -->
-      <!-- Mobile Menu -->
-      <nav class="menu-mobile-container">
-        <a href="#">
-          <img class="menu-hamb" id="menu-hamb" src="icons/menu.png" alt="Menu" />
-        </a>
-        <a class="menu-x hide" id="menu-x" href="#">X</a>
-        <ul class="menu-mobile-list hide">
-          <li class="home-btn"><a href="#Home">Home</a></li>
-          <li class="main-btn"><a href="#Main">Main</a></li>
-          <li class="talks-btn"><a href="#Talks">Talks</a></li>
-          <li class="about-btn"><a href="#About">About</a></li>
-        </ul>
-      </nav>
-      <div class="logo">
-        <a id="logo" href="#">
+      <div class="name-logo">
+        <a id="name-logo" href="#">
           <img src="icons/icon.png" alt="Logo" />
         </a>
       </div>
+      <!-- Mobile Menu -->
+      <nav class="menu-mobile-container hide">
+        <a class="menu-x" id="menu-x" href="#">
+          <div>X</div>
+        </a>
+        <ul class="menu-mobile-list">
+          <li class="main-btn"><a href="#Main">Main</a></li>
+          <li class="about-btn"><a href="#About">About</a></li>
+          <li class="archive-btn"><a href="#Archive">Talks</a></li>
+        </ul>
+      </nav>
+
       <!-- Desktop Menu -->
       <div class="menu-desktop">
-        <!-- <span> </span> -->
-        <ul class="menu-desktop-item hide">
-          <li><a href="#Home">Home</a></li>
+        <a class="menu-hamb" href="#">
+          <img id="menu-hamb" src="icons/menu.png" alt="Menu" />
+        </a>
+        <ul class="menu-desktop-item">
           <li><a href="#Main">Main</a></li>
-          <li><a href="#Talks">Talks</a></li>
           <li><a href="#About">About</a></li>
+          <li><a href="#Archive">Archive</a></li>
         </ul>
       </div>
     </header>  <!-- END OF HEADER -->
+
+    <div class="menu-mobile-bg hide">
+      
+    </div>
 
     <section class="home" id="Home">  <!-- START OF HOME -->
       <div class="home-heading">
@@ -48,7 +52,9 @@
           "Hello! Sharing world"
         </span>
         <h1>
-          CREATIVE COMMONS GLOBAL SUMMIT 2022
+          CREATIVE COMMONS <br>
+          GLOBAL SUMMIT <br>
+          2022
         </h1>
         <p>
           A joyful celebration believing in the value 
@@ -126,7 +132,9 @@
           </p>
         </li>
       </ul>
-
+      <div class="see-program">
+        <h4>SEE THE WHOLE PROGRAM</h3>
+      </div>
       <button class="join" type="button">
         Join CC Global Summit 2015
       </button>
