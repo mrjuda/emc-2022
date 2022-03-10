@@ -573,6 +573,7 @@ footer .h3-header h3,
 
 .partners {
   background-color: var(--color-1);
+  padding-bottom: 3rem !important;
 }
 
 .partners .h3-header h3 {
@@ -593,6 +594,10 @@ footer .h3-header h3,
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
+}
+
+.logo-item {
+  opacity: 0.7;
 }
 
 .jt-footer {
@@ -644,7 +649,7 @@ footer .h3-header h3,
   .archive,
   .partners,
   footer {
-    padding: 1rem 5rem;
+    padding: 2% 11%;
   }
 
   header {
