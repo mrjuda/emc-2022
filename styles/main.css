@@ -27,8 +27,8 @@
 }
 
 body {
-  margin: 0 0;
-  padding: 0 0;
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -65,7 +65,7 @@ h3 {
 
 h4 {
   color: var(--color-2);
-  margin: 0 0;
+  margin: 0;
   font-size: 1rem;
   font-weight: 700;
 }
@@ -90,7 +90,7 @@ footer {
   padding: 1rem 1.3rem;
   display: flex;
   flex-direction: column;
-  margin: 0 0;
+  margin: 0;
   text-align: center;
 }
 
@@ -141,7 +141,7 @@ header {
 .menu-mobile-list,
 .menu-mobile-container .menu-x {
   margin-left: 0;
-  padding: 0 0;
+  padding: 0;
 }
 
 .menu-hamb,
@@ -168,8 +168,8 @@ header {
   height: 2.4rem;
   width: auto;
   gap: 1rem;
-  padding: 0 0;
-  margin: 0 0;
+  padding: 0;
+  margin: 0;
 }
 
 .speakers-pic img {
@@ -191,6 +191,12 @@ header {
 
 .more-speakers img {
   width: auto;
+}
+
+.workshops-items img,
+.workshops-items h4,
+.workshops-items p {
+  padding: 0 0.5rem;
 }
 
 .name-logo a img {
@@ -241,9 +247,9 @@ header {
 }
 
 .event-details .event-location {
-  margin: 0 0;
+  margin: 0;
   border-style: none;
-  padding: 0 0;
+  padding: 0;
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--color-1c);
@@ -271,8 +277,8 @@ header {
 
 .splitter {
   border: solid var(--color-3b);
-  margin: 0 0;
-  padding: 0 0;
+  margin: 0;
+  padding: 0;
   font-size: 1rem;
   line-height: 0.4rem;
   border-width: 0.3px;
@@ -305,7 +311,7 @@ header {
   color: white;
   text-align: center;
   font-size: 1.8rem;
-  margin: 0 0;
+  margin: 0;
 }
 
 footer .h3-header h3,
@@ -318,7 +324,7 @@ footer .h3-header h3,
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  padding: 0 0;
+  padding: 0;
 }
 
 .workshops-items {
@@ -335,12 +341,6 @@ footer .h3-header h3,
 .workshops-items:hover {
   outline: solid 0.2rem var(--color-3);
   outline-offset: -0.2rem;
-}
-
-.workshops-items img,
-.workshops-items h4,
-.workshops-items p {
-  padding: 0 0.5rem;
 }
 
 .workshops-items h4 {
@@ -384,7 +384,7 @@ footer .h3-header h3,
 
 .speakers {
   display: grid;
-  padding: 0 0;
+  padding: 0;
 }
 
 .speakers-items {
@@ -425,7 +425,7 @@ footer .h3-header h3,
 .speakers-info p {
   font-size: 0.7rem;
   line-height: 1rem;
-  margin: 0 0;
+  margin: 0;
 }
 
 .more {
@@ -573,7 +573,7 @@ footer .h3-header h3,
 .title p {
   color: white;
   text-align: center;
-  margin: 0 0;
+  margin: 0;
 }
 
 .partners {
@@ -662,6 +662,11 @@ footer .h3-header h3,
     justify-content: space-between;
   }
 
+  .workshops-items img {
+    height: 4rem;
+    padding: 0.2rem 0;
+  }
+
   .name-logo a img {
     display: flex;
   }
@@ -683,7 +688,7 @@ footer .h3-header h3,
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 0;
+    padding: 0;
     gap: 2rem;
     text-decoration: none;
   }
@@ -711,7 +716,7 @@ footer .h3-header h3,
   }
 
   #no-padding {
-    padding: 0 0;
+    padding: 0;
   }
 
   h1 {
@@ -743,11 +748,6 @@ footer .h3-header h3,
     padding: 1rem 1rem;
   }
 
-  .workshops-items img {
-    height: 4rem;
-    padding: 0.2rem 0;
-  }
-
   .workshops-items h4 {
     height: 3rem;
     padding: 0.2rem 0;
@@ -755,7 +755,7 @@ footer .h3-header h3,
 
   .workshops-items h4,
   .workshops-items p {
-    margin: 0 0;
+    margin: 0;
     text-align: center;
   }
 
