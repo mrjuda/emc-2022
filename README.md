@@ -12,9 +12,9 @@
 - Live version: [mrjuda.github.io/jt-m1-capstone](https://mrjuda.github.io/jt-m1-capstone)
 
 - Mobile version:
-> [![Preview](https://media3.giphy.com/media/YQAuKJ7wf68qBHPw6Y/giphy.gif)](https://media3.giphy.com/media/YQAuKJ7wf68qBHPw6Y/giphy.gif)
+> [![Preview](./gifs/demo-mobile.gif)](./gifs/demo-mobile.gif)
 - Desktop version:
-> [![Preview](https://media3.giphy.com/media/jpEWlxtIDmpsobtxcE/giphy.gif)](https://media3.giphy.com/media/jpEWlxtIDmpsobtxcE/giphy.gif)
+> [![Preview](./gifs/demo-desktop.gif)](./gifs/demo-desktop.gif)
 
 ## Authors
 **Judá F Teixeira**
@@ -31,6 +31,9 @@
 - GitHub: [@emyrue](https://github.com/emyrue "Emily Robertson's GitHub profile")
 - Twitter: [@EmyRueRobertson](https://twitter.com/EmyrueRobertson "Emily Robertson's Twitter profile")
 - LinkedIn: [@emily-robertson-70a2bb22a](https://www.linkedin.com/in/emily-robertson-70a2bb22a/ "Emily Robertson's LinkedIn profile")
+
+**Selase**
+- GitHub: [@dewslyse](https://github.com/dewslyse "Selase's GitHub profile")
 
 ## 📝License
 This project is [MIT](https://github.com/mrjuda/jt-m1-capstone/blob/main/LICENSE) licensed.
