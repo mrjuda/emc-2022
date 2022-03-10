@@ -12,6 +12,7 @@
   --color-1c: #535353;
   --color-2: #ec5242;
   --color-2b: #ffbfb8;
+  --color-2c: #ffdfdb;
   --color-3: #d3d3d3;
   --color-3b: #f3f3f3;
   --color-5: #fcbf49;
@@ -292,7 +293,7 @@ footer .h3-header h3,
 .workshops {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.5rem;
   padding: 0 0;
 }
 
@@ -300,9 +301,16 @@ footer .h3-header h3,
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0.1rem 1.4rem;
+  padding: 0.5rem 2rem;
   background: rgba(100, 100, 110, 0.3);
-  gap: 1.5rem;
+  gap: 2.5rem;
+  cursor: pointer;
+}
+
+.workshops-items:hover {
+  /* border: solid white 0.2rem; */
+  outline: solid 0.2rem var(--color-3);
+  outline-offset: -0.2rem;
 }
 
 .workshops p {
@@ -319,12 +327,20 @@ footer .h3-header h3,
   margin: 2rem 3rem;
   cursor: pointer;
   color: var(--color-3b);
+  background-color: var(--color-2);
   font-size: medium;
   font-weight: 900;
   border-style: none;
-  background-color: var(--color-2);
   padding: 2rem 2rem;
   align-self: center;
+}
+
+.join:hover {
+  color: var(--color-2);
+  background-color: var(--color-3b);
+  outline: solid 0.2rem var(--color-2);
+  /* outline: 5px solid red; */
+  outline-offset: -0.2rem;
 }
 
 .talks {
@@ -386,6 +402,8 @@ footer .h3-header h3,
 }
 
 .more-speakers {
+  font-size: 1rem;
+  font-weight: 500;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -395,9 +413,15 @@ footer .h3-header h3,
   margin-top: 2.5rem;
   padding: 0.8rem 7rem;
   cursor: pointer;
-  color: var(--color-3);
+  color: var(--color-2);
   background-color: var(--color-f);
   border: solid 0.1rem var(--color-3);
+}
+
+.more-speakers:hover {
+  font-weight: 900;
+  outline: solid 0.2rem var(--color-2);
+  outline-offset: -0.2rem;
 }
 
 .more-speakers span {
@@ -579,16 +603,11 @@ footer .h3-header h3,
     border: solid transparent;
   }
 
-  /* .menu-desktop-item li:hover {
-    color: var(--color-f);
-    background-color: var(--color-2);
-  } */
-
-  .cc-button {
+  #cc-footer {
     border: solid var(--color-2) !important;
   }
 
-  .cc-button a {
+  .cc-footer a {
     color: var(--color-2);
   }
 
@@ -610,7 +629,7 @@ footer .h3-header h3,
 
   .workshops {
     flex-direction: row;
-    gap: 0.4rem;
+    gap: 0.2rem;
   }
 
   .workshops-items {
@@ -634,6 +653,7 @@ footer .h3-header h3,
   .see-program h4 {
     color: var(--color-3);
     cursor: pointer;
+    text-decoration: underline;
   }
 
   .join {
