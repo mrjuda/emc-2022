@@ -584,6 +584,22 @@ footer .h3-header h3,
   justify-content: center;
 }
 
+.jt-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-size: 1rem;
+  gap: 3rem;
+  padding: 1rem 1rem;
+}
+
+.jt-footer img {
+  height: 3rem;
+  width: auto;
+}
+
 /* ##### TABLET DESIGN ##### */
 
 @media screen and (min-width: 600px) {
