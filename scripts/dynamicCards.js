@@ -4,43 +4,44 @@ const cardData = [
   {
     // CARD 1 //
     cardId: 'card1',
-    imgSrc: 'images/pic1.png',
-    imgAlt: 'Speaker 1',
-    project: 'Speaker 1',
-    position: 'Speaker current occupation and company',
+    imgSrc: 'images/tiesto.png',
+    imgAlt: 'Tiesto',
+    project: 'Tiesto',
+    position: `Greatest DJ of All Time 
+    by Mix magazine and DjMag`,
     cardP: `
-    Is simply dummy text of the printing 
-    and typesetting industry. Lorem Ipsum 
-    has been the industry's standard dummy 
-    text ever since the 1500s
+    Tiësto met producer Dennis Waakop 
+    Reijers in 1998; the two have worked 
+    together extensively since then
     `,
   },
   {
     // CARD 2 //
     cardId: 'card2',
-    imgSrc: 'images/pic2.png',
-    imgAlt: 'Speaker 2',
-    project: 'Speaker 2',
-    position: 'Speaker current occupation and company',
+    imgSrc: 'images/armin.png',
+    imgAlt: 'Armin van Buuren',
+    project: 'Armin Van Buuren',
+    position: `Dutch DJ and record 
+    producer from Leiden, Holland`,
     cardP: `
-    Is simply dummy text of the printing 
-    and typesetting industry. Lorem Ipsum 
-    has been the industry's standard dummy 
-    text ever since the 1500s
+    Van Buuren has won a number of 
+    accolades. He has been ranked the 
+    number one DJ by DJ Mag a record 
+    of five times
     `,
   },
   {
     // CARD 3 //
     cardId: 'card3',
-    imgSrc: 'images/pic3.png',
-    imgAlt: 'Speaker 3',
-    project: 'Speaker 3',
-    position: 'Speaker current occupation and company',
+    imgSrc: 'images/madeon.png',
+    imgAlt: 'Madeon',
+    project: 'Madeon',
+    position: `French musician, DJ, record 
+    producer, singer and songwriter from Nantes`,
     cardP: `
-    Is simply dummy text of the printing 
-    and typesetting industry. Lorem Ipsum 
-    has been the industry's standard dummy 
-    text ever since the 1500s
+    He initially came to widespread public 
+    attention at 17 through a YouTube 
+    video, "Pop Culture"
     `,
   },
   {

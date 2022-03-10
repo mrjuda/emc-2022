@@ -298,12 +298,13 @@ footer .h3-header h3,
 }
 
 .workshops-items {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 3fr 8fr;
+  justify-items: center;
   align-items: center;
-  padding: 0.5rem 2rem;
+  padding: 1rem 2rem;
   background: rgba(100, 100, 110, 0.3);
-  gap: 2.5rem;
+  gap: 0.8rem;
   cursor: pointer;
 }
 
@@ -313,9 +314,14 @@ footer .h3-header h3,
   outline-offset: -0.2rem;
 }
 
+.workshops-items h4 {
+  text-align: justify;
+}
+
 .workshops p {
   color: var(--color-3);
   font-size: 0.8rem;
+  text-align: justify;
 }
 
 .see-program {
@@ -503,6 +509,55 @@ footer .h3-header h3,
   gap: 1rem;
 }
 
+.pic-box-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: 
+    linear-gradient(
+      rgba(236, 82, 66, 0.5),
+      rgba(236, 82, 66, 0.5)
+    ),
+    url("../images/event1.png");
+  background-size: cover;
+  height: 12rem;
+  width: 100%;
+}
+
+.pic-box-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: 
+    linear-gradient(
+      rgba(236, 82, 66, 0.5),
+      rgba(236, 82, 66, 0.5)
+    ),
+    url("../images/event2.png");
+  background-size: cover;
+  height: 12rem;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.title h3 {
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 0 0;
+}
+
+.title p {
+  color: white;
+  text-align: center;
+  margin: 0 0;
+}
+
 .partners {
   background-color: var(--color-1);
 }
@@ -520,10 +575,11 @@ footer .h3-header h3,
 }
 
 .logo-carousel {
-  justify-content: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
 }
 
 /* ##### TABLET DESIGN ##### */
@@ -636,14 +692,18 @@ footer .h3-header h3,
   }
 
   .workshops-items {
+    display: flex;
     flex-direction: column;
+    justify-items: center;
     width: 100%;
     gap: 0.5rem;
     padding: 1rem 1rem;
   }
 
-  .workshops .workshops-items p {
+  .workshops-items h4,
+  .workshops-items p {
     margin: 0 0;
+    text-align: center;
   }
 
   .see-program {
