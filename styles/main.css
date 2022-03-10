@@ -397,6 +397,7 @@ footer .h3-header h3,
   display: flex;
   flex-direction: row;
   gap: 2rem;
+  margin-top: 2.5rem;
   justify-content: center;
 }
 
@@ -408,13 +409,16 @@ footer .h3-header h3,
   justify-content: center;
   gap: 1rem;
   align-items: center;
-  width: auto;
-  margin-top: 2.5rem;
+  width: 100%;
   padding: 0.8rem 7rem;
   cursor: pointer;
   color: var(--color-2);
   background-color: var(--color-f);
   border: solid 0.1rem var(--color-3);
+}
+
+.more-speakers img {
+  width: auto;
 }
 
 .more-speakers:hover {
