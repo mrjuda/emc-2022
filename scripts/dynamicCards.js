@@ -13,7 +13,7 @@ const cardData = [
     and typesetting industry. Lorem Ipsum 
     has been the industry's standard dummy 
     text ever since the 1500s
-    `
+    `,
   },
   {
     // CARD 2 //
@@ -27,7 +27,7 @@ const cardData = [
     and typesetting industry. Lorem Ipsum 
     has been the industry's standard dummy 
     text ever since the 1500s
-    `
+    `,
   },
   {
     // CARD 3 //
@@ -41,7 +41,7 @@ const cardData = [
     and typesetting industry. Lorem Ipsum 
     has been the industry's standard dummy 
     text ever since the 1500s
-    `
+    `,
   },
   {
     // CARD 4 //
@@ -55,7 +55,7 @@ const cardData = [
     and typesetting industry. Lorem Ipsum 
     has been the industry's standard dummy 
     text ever since the 1500s
-    `
+    `,
   },
   {
     // CARD 5 //
@@ -69,7 +69,7 @@ const cardData = [
     and typesetting industry. Lorem Ipsum 
     has been the industry's standard dummy 
     text ever since the 1500s
-    `
+    `,
   },
   {
     // CARD 6 //
@@ -83,8 +83,8 @@ const cardData = [
     and typesetting industry. Lorem Ipsum 
     has been the industry's standard dummy 
     text ever since the 1500s
-    `
-  }
+    `,
+  },
 ];
 
 function newPortfolioCard(card) {

@@ -339,7 +339,6 @@ footer .h3-header h3,
   color: var(--color-2);
   background-color: var(--color-3b);
   outline: solid 0.2rem var(--color-2);
-  /* outline: 5px solid red; */
   outline-offset: -0.2rem;
 }
 
