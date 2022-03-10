@@ -108,8 +108,9 @@ const generateCard = cardData.map((card, key) => {
 });
 
 const talks = document.getElementById('Speakers');
-
-const cardQtt = generateCard.length;
-for (let i = 0; i < cardQtt; i += 1) {
-  talks.appendChild(generateCard[i]);
+window.onload = function(){
+  const cardQtt = generateCard.length;
+  for (let i = 0; i < cardQtt; i += 1) {
+    talks.appendChild(generateCard[i]);
+  }
 }
