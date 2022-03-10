@@ -36,54 +36,50 @@ const cardData = [
     imgSrc: 'images/madeon.png',
     imgAlt: 'Madeon',
     project: 'Madeon',
-    position: `French musician, DJ, record 
-    producer, singer and songwriter from Nantes`,
+    position: `Musician, DJ, record 
+    producer, singer and songwriter`,
     cardP: `
-    He initially came to widespread public 
-    attention at 17 through a YouTube 
-    video, "Pop Culture"
+    The songwriter from Nantes initially 
+    came to widespread public attention at 
+    17 through a YouTube video, "Pop Culture"
     `,
   },
   {
     // CARD 4 //
     cardId: 'card4',
-    imgSrc: 'images/pic4.png',
-    imgAlt: 'Speaker 4',
-    project: 'Speaker 4',
-    position: 'Speaker current occupation and company',
+    imgSrc: 'images/teigom.png',
+    imgAlt: 'Teigom',
+    project: 'Teigom',
+    position: 'Brazilian Dj, singer, songwriter, and Producer',
     cardP: `
-    Is simply dummy text of the printing 
-    and typesetting industry. Lorem Ipsum 
-    has been the industry's standard dummy 
-    text ever since the 1500s
+    After a 6-year-long carreer in Brazil, Judá Teixeira
+    gave up on his Dj dreams and started an ice-cream company
     `,
   },
   {
     // CARD 5 //
     cardId: 'card5',
-    imgSrc: 'images/pic5.png',
-    imgAlt: 'Speaker 5',
-    project: 'Speaker 5',
-    position: 'Speaker current occupation and company',
+    imgSrc: 'images/daftpunk.png',
+    imgAlt: 'Daft Punk',
+    project: 'Daft Punk',
+    position: `French electronic music duo`,
     cardP: `
-    Is simply dummy text of the printing 
-    and typesetting industry. Lorem Ipsum 
-    has been the industry's standard dummy 
-    text ever since the 1500s
+    French electronic music duo formed in 
+    1993 in Paris by Guy-Manuel de Homem-Christo 
+    and Thomas Bangalter.
     `,
   },
   {
     // CARD 6 //
     cardId: 'card6',
-    imgSrc: 'images/pic6.png',
-    imgAlt: 'Speaker 6',
-    project: 'Speaker 6',
-    position: 'Speaker current occupation and company',
+    imgSrc: 'images/hardwell.png',
+    imgAlt: 'Hardwell',
+    project: 'Hardwell',
+    position: `Dutch DJ, record producer and remixer from Breda`,
     cardP: `
-    Is simply dummy text of the printing 
-    and typesetting industry. Lorem Ipsum 
-    has been the industry's standard dummy 
-    text ever since the 1500s
+    Hardwell was voted the world's number 
+    one DJ on DJ Mag in 2013 and again in 2014. 
+    He was ranked at number twelve in 2019
     `,
   },
 ];

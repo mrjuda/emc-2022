@@ -159,9 +159,11 @@ header {
 }
 
 .logo-carousel img {
-  height: 7rem;
+  height: 2.4rem;
   width: auto;
-  padding: 1rem 0.4rem;
+  gap: 1rem;
+  padding: 0 0;
+  margin: 0 0;
 }
 
 .speakers-pic img {
