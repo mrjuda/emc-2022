@@ -323,10 +323,11 @@ footer .h3-header h3,
 
 .workshops-items {
   display: grid;
-  grid-template-columns: 1fr 3fr 8fr;
-  justify-items: center;
+  /* grid-template-columns: 1fr 3fr 8fr; */
+  grid-template-columns: 15% 25% 52%;
+  justify-items: left;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 0.6rem;
   background: rgba(100, 100, 110, 0.3);
   gap: 0.8rem;
   cursor: pointer;
