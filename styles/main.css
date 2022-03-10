@@ -323,8 +323,7 @@ footer .h3-header h3,
 
 .workshops-items {
   display: grid;
-  /* grid-template-columns: 1fr 3fr 8fr; */
-  grid-template-columns: 15% 25% 52%;
+  grid-template-columns: 17% 28% 42%;
   justify-items: left;
   align-items: center;
   padding: 1rem 0.6rem;
@@ -334,9 +333,14 @@ footer .h3-header h3,
 }
 
 .workshops-items:hover {
-  /* border: solid white 0.2rem; */
   outline: solid 0.2rem var(--color-3);
   outline-offset: -0.2rem;
+}
+
+.workshops-items img,
+.workshops-items h4,
+.workshops-items p {
+  padding: 0 0.5rem;
 }
 
 .workshops-items h4 {
@@ -346,7 +350,7 @@ footer .h3-header h3,
 .workshops p {
   color: var(--color-3);
   font-size: 0.8rem;
-  text-align: justify;
+  text-align: left;
 }
 
 .see-program {
