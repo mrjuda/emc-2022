@@ -6,13 +6,191 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/main.css" />
 
-  <title>JT's Capstone One (Module one)</title>
+  <title>Home: ECM 2022</title>
 </head>
 <body>
-  <h1>Jud&aacute; Teixeira's Capstone One</h1>
-  <p>
-    Hi there
-  </p>
+  <div class="grid-container">
+    <header>  <!-- START OF HEADER -->
+      <div class="name-logo">
+        <a id="name-logo" href="#">
+          <img src="icons/icon.png" alt="Logo" />
+        </a>
+      </div>
+      <!-- Mobile Menu -->
+      <nav class="menu-mobile-container hide">
+        <a class="menu-x" id="menu-x" href="#">
+          <div>X</div>
+        </a>
+        <ul class="menu-mobile-list">
+          <li class="main-btn"><a href="./index.html">Home</a></li>
+          <li class="main-btn"><a href="./index.html#Main">Main</a></li>
+          <li class="about-btn"><a href="./pages/about.html">About</a></li>
+          <li class="archive-btn"><a href="./pages/about.html#Archive">Archive</a></li>
+          <li class="footer-btn"><a href="#Footer">ECM ID</a></li>
+        </ul>
+      </nav>
+
+      <!-- Desktop Menu -->
+      <div class="menu-desktop">
+        <a class="menu-hamb" href="#">
+          <img id="menu-hamb" src="icons/menu.png" alt="Menu" />
+        </a>
+        <ul class="menu-desktop-item">
+          <li><a href="./index.html#Main">Main</a></li>
+          <li><a href="./pages/about.html">About</a></li>
+          <li><a href="./pages/about.html#Archive">Archive</a></li>
+          <li id="no-padding"><a class="cc-footer" id="cc-footer" href="#Footer">ECM ID</a></li>
+        </ul>
+      </div>
+    </header>  <!-- END OF HEADER -->
+
+    <div class="menu-mobile-bg hide">
+      
+    </div>
+
+    <section class="home" id="Home">  <!-- START OF HOME -->
+      <div class="home-heading">
+        <span>
+          "Hello! Electronic Music world"
+        </span>
+        <h1>
+          EDM MARKETING <br>
+          CONFERENCE <br>
+          2022
+        </h1>
+        <p>
+          A internactional conference that unites 
+          the forward thinkers on EDM marketing  
+          with people from over 80 countries 
+          is taking place in March, in Brazil.
+        </p>
+        <div class="event-details">
+          <h2>
+            2022.03.10(THU) ~ 11(FRI)
+          </h2>
+          <p class="event-location">
+            @ Arena das Dunas, Natal 
+            Gramado e parte do estacionamento
+          </p>
+        </div>
+        
+      </div>
+    </section> <!-- END OF HOME -->
+
+    <section class="main" id="Main"> <!-- START OF MAIN -->
+      <div class="h3-header">
+        <h3>Main Program</h3>
+        <div class="dash">  </div>
+      </div>
+      <ul class="workshops">
+        <li class="workshops-items">
+          <img src="icons/event1.png" alt="Workshop icon"/>
+          <h4>DJ's Conference</h4>
+          <p>
+            Meeting with the top world DJs 
+            Is simply dummy text of the printing  
+            has been the 
+          </p>
+        </li>
+        <li class="workshops-items">
+          <img src="icons/event2.png" alt="Workshop icon"/>
+          <h4>Producer's Seminar</h4>
+          <p>
+            EDM Producers share their experience 
+            Is simply dummy text of the printing  
+            has been the 
+          </p>
+        </li>
+        <li class="workshops-items">
+          <img src="icons/event3.png" alt="Workshop icon"/>
+          <h4>Social Media</h4>
+          <p>
+            Media experts share their knowledge  
+            and typesetting industry. Lorem Ipsum 
+            has been 
+          </p>
+        </li>
+        <li class="workshops-items">
+          <img src="icons/event4.png" alt="Workshop icon"/>
+          <h4>Lounge set</h4>
+          <p>
+            Above & beyond launches ABGT 600 
+            and typesetting industry. Lorem Ipsum 
+            has been the
+          </p>
+        </li>
+        <li class="workshops-items">
+          <img src="icons/event5.png" alt="Workshop icon"/>
+          <h4>Tiesto's case</h4>
+          <p>
+            How the world's most famous DJ made it 
+            Is simply dummy text of the printing 
+            has been 
+          </p>
+        </li>
+      </ul>
+      <div class="see-program">
+        <h4>SEE THE WHOLE PROGRAM</h4>
+      </div>
+      <button class="join" type="button">
+        Join ECM 2022 now
+      </button>
+    </section> <!-- END OF MAIN -->
+
+    <section class="talks" id="Talks"> <!-- START OF TALKS -->
+      <div class="h3-header">
+        <h3>EDM Professionals</h3>
+        <div class="dash">  </div>
+      </div>
+      <ul class="speakers" id="Speakers">
+        
+        <!-- HERE GO THE DYNAMIC CARDS -->
+
+      </ul>
+      <div class="more">
+        <button class="more-speakers" type="button">
+          MORE
+          <img src="icons/arrow-down.png" alt="">
+        </button>
+      </div>
+    </section> <!-- END OF TALKS -->
+
+    <section class="partners" id="Partners"> <!-- START OF PARTNERS -->
+      <div class="h3-header">
+        <h3>
+          Partners
+        </h3>
+        <div class="dash">  </div>
+      </div>
+      
+      <div class="logo-carousel">
+        <div class="logo-item">
+          <img src="./icons/partner1.png" alt=""/>
+        </div>
+        <div class="logo-item">
+          <img src="./icons/partner4.png" alt=""/>
+        </div>
+        <div class="logo-item">
+          <img src="./icons/partner3.png" alt=""/>
+        </div>
+        <div class="logo-item">
+          <img src="./icons/partner2.png" alt=""/>
+        </div>
+        <div class="logo-item">
+          <img src="./icons/partner5.png" alt=""/>
+        </div>
+      </div>
+    </section> <!-- END OF PARTNERS -->
+
+    <footer class="footer" id="Footer"> <!-- START OF FOOTER -->
+      <div class="jt-footer">
+        <img src="icons/icon-black.png" alt="JT Logo"/>
+        <p>2022 Judá Teixeira <br>
+        Some Rights Reserved</p>
+      </div>
+    </footer> <!-- END OF FOOTER -->
+  
+  </div>  <!-- END OF PARENT GRID-CONTAINER -->
   
   <script src="scripts/main.js"></script>
 </body>
