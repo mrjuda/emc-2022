@@ -123,11 +123,11 @@ header {
   font-size: 2rem;
 }
 
-.menu-mobile-list,
-.menu-mobile-container .menu-x {
-  /* justify-content: left; */
-  margin-left: 0;
-  padding: 0 0;
+.menu-x {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  margin: 0.4rem 2rem;
 }
 
 .menu-x,
@@ -138,17 +138,16 @@ header {
   z-index: 5;
 }
 
+.menu-mobile-list,
+.menu-mobile-container .menu-x {
+  margin-left: 0;
+  padding: 0 0;
+}
+
 .menu-hamb,
 .menu-mobile-list li a {
   color: #fff;
   font-weight: 700;
-}
-
-.menu-x {
-  color: #fff;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 700;
-  margin: 0.4rem 2rem;
 }
 
 .menu-mobile-list li {
@@ -673,6 +672,7 @@ footer .h3-header h3,
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 0 0;
     gap: 2rem;
     text-decoration: none;
@@ -688,15 +688,20 @@ footer .h3-header h3,
   }
 
   .cc-footer {
-    color: var(--color-2);
-    border: solid var(--color-2) !important;
+    border: solid var(--color-2);
+    color: var(--color-2) !important;
+    padding: 0.4rem 0.4rem;
     cursor: pointer;
   }
 
   .cc-footer:hover {
     font-weight: 900;
-    color: var(--color-f);
+    color: var(--color-f) !important;
     background-color: var(--color-2);
+  }
+
+  #no-padding {
+    padding: 0 0;
   }
 
   h1 {
