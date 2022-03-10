@@ -178,6 +178,15 @@ header {
   height: 3rem;
 }
 
+.jt-footer img {
+  height: 3rem;
+  width: auto;
+}
+
+.more-speakers img {
+  width: auto;
+}
+
 .name-logo a img {
   display: none;
   height: 2.4rem;
@@ -284,6 +293,13 @@ header {
 .event-logo h3 {
   font-size: 1.6rem;
   color: var(--color-1c);
+}
+
+.title h3 {
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 0 0;
 }
 
 footer .h3-header h3,
@@ -425,10 +441,6 @@ footer .h3-header h3,
   border: solid 0.1rem var(--color-3);
 }
 
-.more-speakers img {
-  width: auto;
-}
-
 .more-speakers:hover {
   font-weight: 900;
   outline: solid 0.2rem var(--color-2);
@@ -515,7 +527,7 @@ footer .h3-header h3,
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: 
+  background:
     linear-gradient(
       rgba(236, 82, 66, 0.5),
       rgba(236, 82, 66, 0.5)
@@ -530,7 +542,7 @@ footer .h3-header h3,
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: 
+  background:
     linear-gradient(
       rgba(236, 82, 66, 0.5),
       rgba(236, 82, 66, 0.5)
@@ -545,13 +557,6 @@ footer .h3-header h3,
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-}
-
-.title h3 {
-  color: white;
-  text-align: center;
-  font-size: 1.8rem;
-  margin: 0 0;
 }
 
 .title p {
@@ -593,11 +598,6 @@ footer .h3-header h3,
   font-size: 1rem;
   gap: 3rem;
   padding: 1rem 1rem;
-}
-
-.jt-footer img {
-  height: 3rem;
-  width: auto;
 }
 
 /* ##### TABLET DESIGN ##### */
@@ -680,12 +680,16 @@ footer .h3-header h3,
     border: solid transparent;
   }
 
-  #cc-footer {
+  .cc-footer {
+    color: var(--color-2);
     border: solid var(--color-2) !important;
+    cursor: pointer;
   }
 
-  .cc-footer a {
-    color: var(--color-2);
+  .cc-footer:hover {
+    font-weight: 900;
+    color: var(--color-f);
+    background-color: var(--color-2);
   }
 
   h1 {

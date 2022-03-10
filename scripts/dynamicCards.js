@@ -62,7 +62,7 @@ const cardData = [
     imgSrc: 'images/daftpunk.png',
     imgAlt: 'Daft Punk',
     project: 'Daft Punk',
-    position: `French electronic music duo`,
+    position: 'French electronic music duo',
     cardP: `
     French electronic music duo formed in 
     1993 in Paris by Guy-Manuel de Homem-Christo 
@@ -75,7 +75,7 @@ const cardData = [
     imgSrc: 'images/hardwell.png',
     imgAlt: 'Hardwell',
     project: 'Hardwell',
-    position: `Dutch DJ, record producer and remixer from Breda`,
+    position: 'Dutch DJ, record producer and remixer from Breda',
     cardP: `
     Hardwell was voted the world's number 
     one DJ on DJ Mag in 2013 and again in 2014. 
