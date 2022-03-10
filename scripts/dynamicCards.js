@@ -100,7 +100,7 @@ function newSpeakersCard(card) {
 `;
 }
 
-const generateCard = cardData.map((card, key) => {
+const generateCard = cardData.map((card) => {
   const cardContainer = document.createElement('li');
   cardContainer.className = 'speakers-items';
   cardContainer.innerHTML = newSpeakersCard(card);
@@ -108,9 +108,9 @@ const generateCard = cardData.map((card, key) => {
 });
 
 const talks = document.getElementById('Speakers');
-window.onload = function(){
+window.onload = function loadCards() {
   const cardQtt = generateCard.length;
   for (let i = 0; i < cardQtt; i += 1) {
     talks.appendChild(generateCard[i]);
   }
-}
+};
