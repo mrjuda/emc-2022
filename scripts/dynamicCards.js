@@ -84,9 +84,8 @@ const cardData = [
   },
 ];
 
-function newPortfolioCard(card) {
+function newSpeakersCard(card) {
   return `
-<li class='speakers-items' id='${card.cardId}'>
   <div class='speakers-pic'>
     <img src='${card.imgSrc}' alt='${card.imgAlt}'/>
   </div>
@@ -98,22 +97,19 @@ function newPortfolioCard(card) {
     ${card.cardP}
     </p>
   </div>
-</li>
 `;
 }
 
 const generateCard = cardData.map((card, key) => {
-  const cardContainer = document.createElement('div');
-  cardContainer.className = 'card';
-  if (key % 2 === 1) {
-    cardContainer.classList.add('odd-card');
-  }
-  cardContainer.innerHTML = newPortfolioCard(card);
+  const cardContainer = document.createElement('li');
+  cardContainer.className = 'speakers-items';
+  cardContainer.innerHTML = newSpeakersCard(card);
   return cardContainer;
 });
 
-const portfolio = document.getElementById('Speakers');
+const talks = document.getElementById('Speakers');
+
 const cardQtt = generateCard.length;
 for (let i = 0; i < cardQtt; i += 1) {
-  portfolio.appendChild(generateCard[i]);
+  talks.appendChild(generateCard[i]);
 }
