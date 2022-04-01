@@ -1,4 +1,4 @@
-# 2022's EDM Marketing Conference (EMC Natal 2022)
+# EMC 2022: EDM Marketing Conference (Natal, Brazil)
 > This project is intended to show EMC 2022's attendees all information related to the EMC 2022.
 > The Electronic Dance Music Marketing Conference gathers electronic music and event producers from all around the world since 1992. This year, it will be held in Natal, Brazil.
 > This web page was made with Ubuntu 20.04 + VS Code 1.64.2 + a lot of imagination and hard work.
