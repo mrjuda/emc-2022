@@ -10,7 +10,7 @@
 - JavaScript
 
 ## Live Demo
-- Live version: [mrjuda.github.io/jt-m1-capstone](https://mrjuda.github.io/jt-m1-capstone)
+- Live version: [mrjuda.github.io/emc-2022](https://mrjuda.github.io/emc-2022/)
 
 - Mobile version:
 > [![Preview](./gifs/demo-mobile.gif)](./gifs/demo-mobile.gif)
